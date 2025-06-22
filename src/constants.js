@@ -33,7 +33,7 @@ import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
 import flask from './assets/tech_logo/Flask.png';
-import render from './assets/tech_logo/render.png'
+import render from './assets/tech_logo/Render.png'
 
 
 // Education Section Logo's
