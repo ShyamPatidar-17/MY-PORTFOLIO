@@ -46,7 +46,7 @@ import milkmatelogo from './assets/work_logo/Milkmate.png';
 import todologo from './assets/work_logo/To-Do.png';
 import ecommercelogo from './assets/work_logo/Cara.png';
 import calculatorlogo from './assets/work_logo/Calculator.png';
-import portfoliologo from './assets/work_logo/Portfolio.png';
+import portfoliologo from './assets/work_logo/portfolio.png';
 
 
 // Experience Section Logo's
