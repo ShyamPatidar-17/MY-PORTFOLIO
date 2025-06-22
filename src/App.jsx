@@ -8,6 +8,7 @@ import Experience from './components/Experience/Experience'
 import Footer from './components/Footer/Footer'
 import Work from './components/Work/Work'
 import './index.css'; 
+import './App.css';
 
 
 function App() {
