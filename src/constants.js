@@ -39,6 +39,7 @@ import render from './assets/tech_logo/Render.png'
 // Education Section Logo's
 import svvvlogo from './assets/education_logo/SVVV.jpeg';
 import kealogo from './assets/education_logo/KEA.png';
+import dcslogo from './assets/education_logo/dcs.jpg';
 
 
 // Project Section Logo's
@@ -47,12 +48,19 @@ import todologo from './assets/work_logo/To-Do.png';
 import ecommercelogo from './assets/work_logo/Cara.png';
 import calculatorlogo from './assets/work_logo/Calculator.png';
 import portfoliologo from './assets/work_logo/portfolio.png';
+import wanderlustlogo from './assets/work_logo/Wanderlust.png'
 
 
 // Experience Section Logo's
 
 import internpeLogo from './assets/company_logo/internpe_logo.jpeg'
 import codsoftLogo from './assets/company_logo/codsoft_logo.png'
+
+//Certificate Section Logo's
+
+import clogo from './assets/certificate_logo/c_logo.jpg'
+import cpplogo from './assets/certificate_logo/cpp_logo.png'
+import weblogo from './assets/certificate_logo/web_logo.png'
 
 
 export const SkillsInfo = [
@@ -158,6 +166,7 @@ export const SkillsInfo = [
     },
     {
       id: 2,
+      img: dcslogo,
       school: "Dinah Convent School, Tarana",
       date: "June 2018 - March 2019",
       grade: "68%",
@@ -174,7 +183,7 @@ export const SkillsInfo = [
         "To digitize and simplify the traditional milk delivery process by connecting dairies, milkmen, and  customers through a unified and user-friendly web platform. ",
       image: milkmatelogo,
       tags: ["HTML", "CSS", "JavaScript","MongoDB","Render","Express.js","Node.js"],
-      github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
+      github: "https://github.com/ShyamPatidar-17/Milkmate",
       webapp: "https://milkmate.onrender.com",
     },
     {
@@ -182,9 +191,9 @@ export const SkillsInfo = [
       title: "Wanderlust - Travel stay booking platform",
       description:
         "To build a platform where users can explore, book, and review vacation stays, while hosts can list and manage rental properties — similar to Airbnb, promoting easy, secure, and efficient stay bookings online",
-      image: ecommercelogo,
+      image: wanderlustlogo,
       tags: ["HTML", "CSS", "JavaScript","MongoDB","Render","Express.js","Node.js"],
-      github: "https://github.com/codingmastr/cmtk-email-validator",
+      github: "https://github.com/ShyamPatidar-17/WanderLust",
       webapp: "https://major-project-alfb.onrender.com",
     },
     {
@@ -194,7 +203,8 @@ export const SkillsInfo = [
         "To replicate the user interface of a modern e-commerce website (like Cara), focusing on responsive design, interactive product listings, and smooth user experience — purely as a frontend project to showcase web design and UI development skills.",
       image: ecommercelogo,
       tags: ["HTML", "CSS", "JavaScript","Bootstrap","Material UI",],
-      github: "https://github.com/codingmastr/CSPrep",
+      github: "https://github.com/ShyamPatidar-17/ECOMMERCE",
+      webapp:"https://github.com/ShyamPatidar-17/Milkmate"
     },
     
     {
@@ -205,7 +215,7 @@ export const SkillsInfo = [
       image: portfoliologo,
       tags: ["React", "Tailwind", "Vercel"],
       github: "https://github.com/codingmastr/Webverse-Digital",
-      webapp: "https://webversedigital.com/",
+      webapp: "https://my-portfolio-git-main-shyampatidar-17s-projects.vercel.app/",
     },
     {
       id: 4,
@@ -229,3 +239,54 @@ export const SkillsInfo = [
     },
 
   ];  
+
+  
+  export const Certificates = [
+    {
+      id:0,
+      title: 'Full Stack Web Development (MERN)',
+      platform: 'Apna College',
+      learnings: [
+        'MongoDB, Express.js, React.js, Node.js',
+        'Built real-world full-stack projects',
+        'Authentication, APIs, deployment'
+      ],
+      image: weblogo,
+    },
+    {
+      id:1,
+      title: 'DSA in C++',
+      platform: 'Apna College',
+      learnings: [
+        'Data Structures: Arrays, Linked Lists, Stacks, Graphs, Trees',
+        'Algorithms: Sorting, Recursion, Greedy,Dynamic Programming',
+        'Competitive programming practice'
+      ],
+      image: cpplogo,
+      
+    },
+    {
+      id:2,
+      title: 'C/C++ Programming',
+      platform: 'Samyak Coaching Institute',
+      learnings: [
+        'Basic to advanced syntax',
+        'OOPs concepts in C++',
+        'Project-based learning'
+      ],
+      image: clogo,
+    
+    },
+    {
+      id:3,
+      title: 'Python with Flask',
+      platform: 'PrepInsta',
+      learnings: [
+        'Python basics to advanced',
+        'Flask for web development',
+        'Routing, templates, and database'
+      ],
+      image: weblogo,
+      
+    }
+  ]
