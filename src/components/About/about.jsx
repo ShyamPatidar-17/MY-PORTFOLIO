@@ -2,6 +2,7 @@ import React from 'react'
 import { Typewriter } from 'react-simple-typewriter'
 import profileImage from '../../assets/Profile2.jpg'
 import Tilt from 'react-parallax-tilt'
+import resume from '../../assets/certificate_logo/Shyam_Patidar_Resume.pdf'
 
 const About = () => {
   return (
@@ -51,7 +52,7 @@ const About = () => {
 
           {/* Resume Button */}
           <a
-            href='https://drive.google.com/file/d/1RseL77JVG5YofntyDAbyDF2urqh_Iiam/view?usp=drive_link'
+            href={resume}
             target='_blank'
             rel='noopener noreferrer'
             className='inline-block text-white py-3 px-8 rounded-full text-lg font-bold transition duration-300 transform hover:scale-105'
