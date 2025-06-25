@@ -49,7 +49,7 @@ import ecommercelogo from './assets/work_logo/Cara.png';
 import calculatorlogo from './assets/work_logo/Calculator.png';
 import portfoliologo from './assets/work_logo/portfolio.png';
 import wanderlustlogo from './assets/work_logo/Wanderlust.png'
-import dicegamelogo from './assets/work_logo/Piggame.png'
+import dicegamelogo from './assets/work_logo/dicegame.png'
 
 // Experience Section Logo's
 
