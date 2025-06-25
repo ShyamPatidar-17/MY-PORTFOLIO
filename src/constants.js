@@ -49,7 +49,7 @@ import ecommercelogo from './assets/work_logo/Cara.png';
 import calculatorlogo from './assets/work_logo/Calculator.png';
 import portfoliologo from './assets/work_logo/portfolio.png';
 import wanderlustlogo from './assets/work_logo/Wanderlust.png'
-
+import dicegamelogo from './assets/work_logo/dicegame.png'
 
 // Experience Section Logo's
 
@@ -194,7 +194,7 @@ export const SkillsInfo = [
       image: wanderlustlogo,
       tags: ["HTML", "CSS", "JavaScript","MongoDB","Render","Express.js","Node.js"],
       github: "https://github.com/ShyamPatidar-17/WanderLust",
-      webapp: "https://major-project-alfb.onrender.com",
+      webapp: "https://major-project-alfb.onrender.com/listings",
     },
     {
       id: 2,
@@ -203,8 +203,8 @@ export const SkillsInfo = [
         "To replicate the user interface of a modern e-commerce website (like Cara), focusing on responsive design, interactive product listings, and smooth user experience — purely as a frontend project to showcase web design and UI development skills.",
       image: ecommercelogo,
       tags: ["HTML", "CSS", "JavaScript","Bootstrap","Material UI",],
-      github: "https://github.com/ShyamPatidar-17/ECOMMERCE",
-      webapp:"https://github.com/ShyamPatidar-17/Milkmate"
+      github: "https://github.com/ShyamPatidar-17/Cara-Ecommerce",
+      webapp:"https://cara-ecommerce-frontend.netlify.app/"
     },
     
     {
@@ -214,8 +214,8 @@ export const SkillsInfo = [
         "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
       image: portfoliologo,
       tags: ["React", "Tailwind", "Vercel"],
-      github: "https://github.com/codingmastr/Webverse-Digital",
-      webapp: "https://my-portfolio-git-main-shyampatidar-17s-projects.vercel.app/",
+      github: "https://github.com/ShyamPatidar-17/MY-PORTFOLIO",
+      webapp: "https://shyampatidar-portfolio.vercel.app/",
     },
     {
       id: 4,
@@ -224,7 +224,8 @@ export const SkillsInfo = [
         "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
       image: todologo,
       tags: ["JavaScript", "HTML", "CSS"],
-      github: "https://github.com/codingmastr/Task-Reminder-Tool",
+      github: "https://github.com/ShyamPatidar-17/ToDo",
+      webapp:"https://frontend-todo-project.netlify.app/"
     },
 
     {
@@ -234,8 +235,18 @@ export const SkillsInfo = [
         "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
       image: calculatorlogo,
       tags: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/Webverse-Digital",
-      webapp: "https://webversedigital.com/",
+      github: "https://github.com/ShyamPatidar-17/Calculator",
+      webapp: "https://calculator-frontend-only.netlify.app/",
+    },
+
+    {
+      id:6,
+      title:"Dice Game",
+      description:"A two player dice game",
+      image:dicegamelogo,
+      tags:["HTML","CSS","JavaScript"],
+      github:"https://github.com/ShyamPatidar-17/PigGame",
+      webapp:"https://pig-game-sp.netlify.app/"
     },
 
   ];  
